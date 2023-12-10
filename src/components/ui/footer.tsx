@@ -1,3 +1,5 @@
+"use client";
+
 import { logo } from "@/assets/images";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +15,13 @@ export default function Footer() {
           DivideProject
         </Link>
       </p>
-      <Button className="!bg-background">Scroll up</Button>
+      <Button
+        className="!bg-background"
+        arrowClassName="-rotate-90"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        Scroll up
+      </Button>
     </footer>
   );
 }

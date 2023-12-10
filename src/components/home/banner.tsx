@@ -1,4 +1,5 @@
 import Button from "../ui/button";
+import NavLink from "../ui/nav-link";
 
 export default function Banner() {
   return (
@@ -7,7 +8,9 @@ export default function Banner() {
         <h2 className="text-3xl xl:text-4xl text-white text-center">
           Did we convince you?
         </h2>
-        <Button>Book a call</Button>
+        <NavLink title="contact">
+          <Button asChild>Book a call</Button>
+        </NavLink>
       </div>
     </section>
   );

@@ -5,7 +5,7 @@ import SupportIcon from "@/assets/icons/support";
 
 export default function Services() {
   return (
-    <section className="md:px-[12vw] 2xl:px-[16vw] my-8">
+    <section id="services" className="md:px-[12vw] 2xl:px-[16vw] my-8">
       <div className="bg-white md:rounded-[32px] flex flex-col gap-4 items-center py-16 px-[8vw] md:px-16 md:grid grid-cols-2 xl:grid-cols-4 text-center">
         <div className="h-full bg-background w-full rounded-3xl flex flex-col gap-4 col-span-2"></div>
         <div className="min-h-[2in] bg-background w-full rounded-3xl flex flex-col justify-between gap-4 xl:gap-8 col-span-2 py-6 px-8">

@@ -1,6 +1,6 @@
 export default function Team() {
   return (
-    <section className="md:px-[12vw] 2xl:px-[16vw] my-8">
+    <section id="team" className="md:px-[12vw] 2xl:px-[16vw] my-8">
       <div className="bg-white md:rounded-[32px] flex flex-col gap-4 items-center py-12 px-[8vw] md:px-16 text-center">
         <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-medium">
           Meet the team 👏 behind the agency

@@ -5,7 +5,7 @@ import SupportIcon from "@/assets/icons/support";
 
 export default function Offer() {
   return (
-    <section className="md:px-[12vw] 2xl:px-[16vw] my-8">
+    <section id="marketing offer" className="md:px-[12vw] 2xl:px-[16vw] my-8">
       <div className="bg-dark md:rounded-[32px] flex flex-col gap-4 py-16 px-[8vw] md:px-16">
         <h2 className="text-white text-2xl md:text-3xl 2xl:text-4xl font-medium text-center">
           What do we offer? 🧑🏻‍💻

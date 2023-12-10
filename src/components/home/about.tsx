@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="md:px-[12vw] 2xl:px-[16vw] my-8">
+    <section id="about us" className="md:px-[12vw] 2xl:px-[16vw] my-8">
       <div className="bg-white md:rounded-[32px] flex flex-col gap-12 py-16 px-[8vw] md:px-16 text-center">
         <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-medium text-center self-center">
           Some words about 🫶 us
