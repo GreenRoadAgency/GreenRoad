@@ -10,3 +10,13 @@ body {
   color: #1a1a1a;
   background-color: #f7f7f7;
 }
+
+.calendly-inline-widget {
+  height: 11in;
+}
+
+@media screen and (min-width: 1659px) {
+  .calendly-inline-widget {
+    height: 8in;
+  }
+}
