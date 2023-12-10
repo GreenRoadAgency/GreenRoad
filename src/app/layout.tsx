@@ -39,6 +39,11 @@ export const metadata: Metadata = {
   title: "GreenRoad Agency | SaaS Marketing",
   description:
     "Discover unparalleled efficiency and innovation with our cutting-edge SaaS products at GreenRoad Agency. Elevate your business operations to new heights as we seamlessly integrate state-of-the-art software solutions designed to streamline processes, boost productivity, and drive growth. Explore a diverse suite of SaaS offerings tailored to meet the unique needs of your industry, all backed by advanced technology and user-friendly interfaces. Stay ahead of the competition with our scalable and customizable solutions, delivering the agility your business demands. Revolutionize the way you work – unlock the full potential of your enterprise with GreenRoad. Unleash the power of SaaS for a future-proof business strategy!",
+  openGraph: {
+    title: "GreenRoad Agency | SaaS Marketing",
+    description:
+      "Discover unparalleled efficiency and innovation with our cutting-edge SaaS products at GreenRoad Agency. Elevate your business operations to new heights as we seamlessly integrate state-of-the-art software solutions designed to streamline processes, boost productivity, and drive growth. Explore a diverse suite of SaaS offerings tailored to meet the unique needs of your industry, all backed by advanced technology and user-friendly interfaces. Stay ahead of the competition with our scalable and customizable solutions, delivering the agility your business demands. Revolutionize the way you work – unlock the full potential of your enterprise with GreenRoad. Unleash the power of SaaS for a future-proof business strategy!",
+  },
 };
 
 export default function RootLayout({

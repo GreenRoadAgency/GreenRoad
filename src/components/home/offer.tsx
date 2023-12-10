@@ -11,30 +11,30 @@ export default function Offer() {
           What do we offer? 🧑🏻‍💻
         </h2>
         <div className="flex flex-col gap-4 w-full mt-8">
-          <div className=" bg-[#262626] rounded-2xl py-12 flex flex-col justify-center gap-4 pl-16">
+          <div className=" bg-[#262626] rounded-2xl py-12 flex flex-col justify-center gap-4 px-[8vw] md:px-0 md:pl-16">
             <h3 className="text-white font-medium text-xl">
               Focused META ADS Expertise
             </h3>
-            <p className="text-[#A0A0A0] text-sm xl:text-base max-w-[40%]">
+            <p className="text-[#A0A0A0] text-sm xl:text-base md:max-w-[40%]">
               At the heart of our services lies a singular focus: META ADS. We
               excel in this area with unparalleled precision and effectiveness.
             </p>
           </div>
-          <div className=" bg-[#262626] rounded-2xl py-12 flex flex-col justify-center items-end gap-4 pr-16 text-right">
+          <div className=" bg-[#262626] rounded-2xl py-12 flex flex-col justify-center md:items-end px-[8vw] md:px-0 gap-4 md:pr-16 md:text-right">
             <h3 className="text-white font-medium text-xl">
               Specialized Advertising Solutions
             </h3>
-            <p className="text-[#A0A0A0] text-sm xl:text-base max-w-[40%]">
+            <p className="text-[#A0A0A0] text-sm xl:text-base md:max-w-[40%]">
               We're not just any agency; we're specialists in YOUR market. Our
               advertising services are fine-tuned and proven, offering you the
               best possible performance
             </p>
           </div>
-          <div className=" bg-[#262626] rounded-2xl py-12 flex flex-col justify-center gap-4 pl-16">
+          <div className=" bg-[#262626] rounded-2xl py-12 flex flex-col justify-center gap-4 px-[8vw] md:px-0 md:pl-16">
             <h3 className="text-white font-medium text-xl">
               Effortless Campaign Management
             </h3>
-            <p className="text-[#A0A0A0] text-sm xl:text-base max-w-[40%]">
+            <p className="text-[#A0A0A0] text-sm xl:text-base md:max-w-[40%]">
               Easily track your ad spend, measure revenue, and calculate net
               income with our user-friendly tools. We provide an experience that
               combines simplicity with high-impact results.

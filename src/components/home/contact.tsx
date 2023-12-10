@@ -3,7 +3,7 @@ import Script from "next/script";
 export default function Contact() {
   return (
     <section id="contact" className="md:px-[12vw] 2xl:px-[16vw] my-8">
-      <div className="bg-white md:rounded-[32px] flex flex-col gap-4 items-center py-16 px-[8vw] md:px-16 md:grid grid-cols-2">
+      <div className="bg-white md:rounded-[32px] flex flex-col gap-4 items-center py-16 px-[8vw] md:px-16 xl:grid grid-cols-2">
         <div className="min-h-[6in] bg-background w-full rounded-3xl flex flex-col gap-4 py-8 px-10 justify-center">
           <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-medium mb-4">
             Got a question 🤔 in mind?
@@ -39,7 +39,7 @@ export default function Contact() {
         <div
           className="calendly-inline-widget"
           data-url="https://calendly.com/greenroadagency/free-discovery-call"
-          style={{ height: "100%" }}
+          style={{ height: "6in", width: "100%" }}
         ></div>
         <Script
           type="text/javascript"
