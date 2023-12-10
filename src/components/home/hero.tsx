@@ -5,7 +5,7 @@ import NavLink from "../ui/nav-link";
 
 export default function Hero() {
   return (
-    <section className="min-h-[110vh] md:min-h-[90vh] flex flex-col justify-center xl:justify-normal xl:items-center px-[8vw] md:px-[12vw] 2xl:px-[16vw] xl:grid grid-cols-[3fr_2fr] gap-16">
+    <section className="min-h-[110vh] md:min-h-[90vh] flex flex-col pt-[1.4in] md:pt-0 md:items-center px-[8vw] md:px-[12vw] 2xl:px-[16vw] md:grid grid-cols-[3fr_2fr] gap-16">
       <div className="flex flex-col gap-4">
         <div className="rounded-full border-[#E2E2E2] border-[1px] bg-white px-3 py-1 w-max">
           <span className="text-light font-medium text-sm">
