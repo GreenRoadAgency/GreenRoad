@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+import Script from "next/script";
 
 const switzer = localFont({
   src: [
@@ -57,6 +58,17 @@ export default function RootLayout({
         <Header />
         <main className="min-h-[200vh]">{children}</main>
         <Footer />
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-67YV51JZKJ"
+        />
+        <Script>
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-67YV51JZKJ');`}
+        </Script>
       </body>
     </html>
   );
