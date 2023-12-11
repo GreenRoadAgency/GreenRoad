@@ -6,8 +6,10 @@ import NavLink from "./nav-link";
 
 export default function Header() {
   return (
-    <div className="fixed top-0 md:pt-4 z-50 w-full">
-      <header className="bg-white px-8 py-4 md:mx-[12vw] 2xl:mx-[16vw] md:rounded-full justify-between flex items-center">
+    <div className={`transition-all fixed top-0 md:pt-4 z-50 w-full`}>
+      <header
+        className={`transition-all bg-white px-8 py-4 md:rounded-full md:mx-[12vw] 2xl:mx-[16vw] justify-between flex items-center`}
+      >
         <Image width={128} height={64} src={logo} alt="GreenRoad Logo" />
         <nav className="items-center gap-12 hidden xl:flex">
           {LINKS.map((link) => (
