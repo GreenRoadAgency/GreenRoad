@@ -13,7 +13,7 @@ export default function Contact() {
             element={
               <>
                 <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-medium mb-4">
-                  Got a question 🤔 in mind?
+                  Got a question in mind? 🤔
                 </h2>
                 <p className="text-light font-medium text-left">
                   After this Audit call, you'll{" "}

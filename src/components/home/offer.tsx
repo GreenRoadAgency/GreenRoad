@@ -109,9 +109,9 @@ export default function Offer() {
           opacity={1}
         >
           <Control
-            className="h-full"
+            className="flex items-stretch"
             element={
-              <div className="fill-primary h-full flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
+              <div className="fill-primary flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
                 <QualityIcon />
                 <h3 className="text-white text-xl font-medium">
                   Market-Specific Expertise
@@ -124,9 +124,9 @@ export default function Offer() {
             }
           />
           <Control
-            className="h-full"
+            className="flex items-stretch"
             element={
-              <div className="fill-primary h-full flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
+              <div className="fill-primary flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
                 <SupportIcon />
                 <h3 className="text-white text-xl font-medium">
                   Precision in Execution
@@ -139,9 +139,9 @@ export default function Offer() {
             }
           />
           <Control
-            className="h-full"
+            className="flex items-stretch"
             element={
-              <div className="fill-primary h-full flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
+              <div className="fill-primary flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
                 <ApproachIcon />
                 <h3 className="text-white text-xl font-medium">
                   Simplified Analytics
@@ -153,9 +153,9 @@ export default function Offer() {
             }
           />
           <Control
-            className="h-full"
+            className="flex items-stretch"
             element={
-              <div className="fill-primary h-full flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
+              <div className="fill-primary flex flex-col gap-4 py-8 px-10 bg-[#262626] rounded-2xl justify-center">
                 <GrowthIcon />
                 <h3 className="text-white text-xl font-medium">
                   Effective Results

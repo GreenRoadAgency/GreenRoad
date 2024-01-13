@@ -54,7 +54,7 @@ export default function Services() {
             <>
               <SupportIcon />
               <h3 className="text-center text-xl font-medium leading-tight">
-                24/7 Customer Support
+                High-Quality Support
               </h3>
             </>
           }

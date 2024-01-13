@@ -12,7 +12,7 @@ export default function About() {
           onScroll
           element={
             <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-medium text-center self-center">
-              Some words about 🫶 us
+              Some words about us 🫶
             </h2>
           }
         />
@@ -22,7 +22,7 @@ export default function About() {
               <span className="font-medium text-light xl:text-lg">
                 <CountUp
                   enableScrollSpy
-                  end={25}
+                  end={5}
                   useEasing
                   scrollSpyOnce={false}
                 />
@@ -33,15 +33,7 @@ export default function About() {
               </h3>
             </div>
             <div>
-              <span className="font-medium text-light xl:text-lg">
-                <CountUp
-                  enableScrollSpy
-                  end={10}
-                  useEasing
-                  scrollSpyOnce={false}
-                />
-                k+
-              </span>
+              <span className="font-medium text-light xl:text-lg">1M+</span>
               <h3 className="font-medium text-xl xl:text-2xl">
                 Online impressions
               </h3>
@@ -50,13 +42,13 @@ export default function About() {
               <span className="font-medium text-light xl:text-lg">
                 <CountUp
                   enableScrollSpy
-                  end={99}
+                  end={10}
                   useEasing
                   scrollSpyOnce={false}
                 />
               </span>
               <h3 className="font-medium text-xl xl:text-2xl">
-                Succesful campaings
+                Successful campaings
               </h3>
             </div>
             <div>
@@ -77,9 +69,9 @@ export default function About() {
           <div className="min-h-[2in] h-full bg-background w-full rounded-3xl flex flex-col justify-between gap-4 xl:gap-8 py-6 px-8">
             <p className="text-light font-medium text-left xl:text-lg">
               GreenRoad Agency,{" "}
-              <span className="text-dark">led by Nikodem, Kacper,</span> and{" "}
-              <span className="text-dark">Kamil,</span> specializes in{" "}
-              <span className="text-dark">marketing</span> focused primarly on
+              <span className="text-dark">led by Nikodem, Kamil,</span> and{" "}
+              <span className="text-dark">Kacper,</span> specializes in{" "}
+              <span className="text-dark">marketing</span> focused primarily on
               SaaS products, offering{" "}
               <span className="text-dark">expert strategies for growth</span>{" "}
               and supporting companies on their{" "}

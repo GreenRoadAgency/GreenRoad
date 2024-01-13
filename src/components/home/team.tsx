@@ -10,7 +10,7 @@ export default function Team() {
     >
       <div className="bg-white md:rounded-[32px] flex flex-col gap-4 items-center py-12 px-[8vw] md:px-16 text-center max-w-[12in] w-full self-center">
         <h2 className="text-2xl md:text-3xl 2xl:text-4xl font-medium">
-          Meet the team 👏 behind the agency
+          Meet the team behind the agency 👏
         </h2>
         <p className="text-light font-medium">
           Founded by <span className="text-dark">Nikodem</span>,{" "}
