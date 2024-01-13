@@ -14,8 +14,8 @@ export default function Team() {
         </h2>
         <p className="text-light font-medium">
           Founded by <span className="text-dark">Nikodem</span>,{" "}
-          <span className="text-dark">Kacper</span> and{" "}
-          <span className="text-dark">Kamil</span>
+          <span className="text-dark">Kamil</span> and{" "}
+          <span className="text-dark">Kacper</span>
         </p>
         <Controller
           opacity={1}
